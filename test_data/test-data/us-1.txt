@@ -1,0 +1,1 @@
+The user should be able to log into MindCare easily and quickly using their email and password to access their account.
