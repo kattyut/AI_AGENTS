@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "QA Publish Jira",
+      "type": "shell",
+      "command": "python runner/cli.py /qa.enrich.jira ${input:ticket}",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ticket",
+      "type": "promptString",
+      "description": "Ingrese el ticket Jira (ej: QA-123)"
+    }
+  ]
+}
